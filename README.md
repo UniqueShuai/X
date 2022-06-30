@@ -6,21 +6,30 @@
 ; https://github.com/Orz-3/mini/raw/master/mini.json
 # > Orz-3图标库，请手动添加图标订阅（big style）
 ; https://github.com/Orz-3/mini/raw/master/Color%2B.json
+# > 建议在「其他设置」里「GeoLite2」的「来源」填写使用下面链接，并开启「自动更新」
+; https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+
+; https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb
+
+# > 圈x配置完整文件
+
+; https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult%20X/LazyConf/QuantumultX_EDC-Lazy.conf
+
+; https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qixin.conf
+
+; https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Orz-3.conf
+
+; https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_diy.conf
+
+; https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/QuantumultX_Profiles.conf
+
+; https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/full.conf
+
+; https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Profile/QuantumultX.conf
 
 
-圈x配置完整文件
-https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult%20X/LazyConf/QuantumultX_EDC-Lazy.conf
 
-https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qixin.conf
 
-https://raw.githubusercontent.com/Orz-3/QuantumultX/master/Orz-3.conf
-
-https://raw.githubusercontent.com/w37fhy/QuantumultX/master/QuantumultX_diy.conf
-
-https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/QuantumultX_Profiles.conf
-
-#毒奶配置：https://raw.githubusercontent.com/limbopro/Profiles4limbo/main/full.conf
-#墨鱼自用的QX配置文件：https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Profile/QuantumultX.conf
 
 毒奶的库:https://github.com/limbopro/Profiles4limbo
 
