@@ -8,7 +8,7 @@
 ; https://github.com/Orz-3/mini/raw/master/Color%2B.json
 
 
-#圈x配置完整文件
+圈x配置完整文件
 https://raw.githubusercontent.com/erdongchanyo/Rules/main/Quantumult%20X/LazyConf/QuantumultX_EDC-Lazy.conf
 
 https://raw.githubusercontent.com/zwf234/rules/master/QuantumultX/qixin.conf
