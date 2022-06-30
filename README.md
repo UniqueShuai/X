@@ -1,3 +1,5 @@
+# > 利用描述文件屏蔽IOS更新提醒（兼容IOS13、14、15）
+; https://app.initnil.com/tvOS.mobileconfig
 # > Qure图标库，请手动添加图标订阅（黑白）
 ; https://github.com/Koolson/Qure/raw/master/Other/QureLight-All.json
 # > Qure图标库，请手动添加图标订阅（彩色）
