@@ -57,6 +57,8 @@ Navepnow：https://github.com/NavePnow/Profiles
 
 张军 https://github.com/28413761/
 
+https://github.com/Loyalsoldier?tab=repositories
+
 Tararus（整合版，推荐）:https://github.com/Tartarus2014/QuantumultX-Script
 
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/TikTok.list, tag=海外抖音, force-policy=全球加速, update-interval=172800, opt-parser=true, enabled=true
