@@ -1,3 +1,5 @@
+#国内IP池07-10
+；https://raw.githubusercontent.com/Loyalsoldier/surge-rules/release/ruleset/cncidr.txt
 IP-CIDR,1.0.1.0/24
 IP-CIDR,1.0.2.0/23
 IP-CIDR,1.0.8.0/21
