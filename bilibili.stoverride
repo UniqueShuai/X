@@ -87,6 +87,7 @@ script-providers:
   # BiliBili
   bilibili:
     url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_diy.js
+    interval: 86400
 rules:
   # BiliBili去广告
   - DOMAIN-SUFFIX,cm.bilibili.com,REJECT
