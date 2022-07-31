@@ -56,13 +56,13 @@ http:
       type: response
       require-body: true
       timeout: 10
-     # ～ BiliBili_哔哩哔哩_去除统一设置的皮肤@ddgksf2013 
+     # ～ BiliBili_哔哩哔哩_去除统一设置的皮肤@ddgksf2013
     - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?
       name: bilibili_plus
       type: response
       require-body: true
       timeout: 10
-     # ～ BiliBili_哔哩哔哩_1080P高码率+4K画质(番剧和影视除外)@ddgksf2013 
+     # ～ BiliBili_哔哩哔哩_1080P高码率+4K画质(番剧和影视除外)@ddgksf2013
     - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?
       name: bilibili_plus
       type: response
@@ -80,48 +80,48 @@ http:
       type: response
       require-body: true
       timeout: 10
-    # ～ BiliBili_哔哩哔哩_追番去广告@ddgksf2013  
+    # ～ BiliBili_哔哩哔哩_追番去广告@ddgksf2013
     - match: ^https?:\/\/api\.(bilibili|biliapi)\.(com|net)\/pgc\/page\/bangumi
       name: bilibili_plus
       type: response
       require-body: true
-      timeout: 10    
-    # ～ BiliBili_哔哩哔哩_直播去广告@bm7  
+      timeout: 10
+    # ～ BiliBili_哔哩哔哩_直播去广告@bm7
     - match: ^https?:\/\/api\.live\.bilibili\.com\/xlive\/app-room\/v1\/index\/getInfoByRoom
       name: bilibili_plus
       type: response
       require-body: true
-      timeout: 10   
+      timeout: 10
     # ～ BiliBili_哔哩哔哩_动态去广告@bm7
     - match: ^https?:\/\/api\.vc\.bilibili\.com\/dynamic_svr\/v1\/dynamic_svr\/dynamic_(history|new)\?
       name: bilibili_plus
       type: response
       require-body: true
-      timeout: 10  
-    # ～ BiliBili_哔哩哔哩_标籤页处理@ddgksf2013    
+      timeout: 10
+    # ～ BiliBili_哔哩哔哩_标籤页处理@ddgksf2013
     - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/tab
       name: bilibili_plus
       type: response
       require-body: true
-      timeout: 10 
-    # ～ BiliBili_哔哩哔哩_我的页面处理@ddgksf2013       
+      timeout: 10
+    # ～ BiliBili_哔哩哔哩_我的页面处理@ddgksf2013
     - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/mine
       name: bilibili_plus
       type: response
       require-body: true
-      timeout: 10 
-    # ～ BiliBili_哔哩哔哩_Proto去广告@app2smile        
+      timeout: 10
+    # ～ BiliBili_哔哩哔哩_Proto去广告@app2smile
     - match: ^https:\/\/app\.bilibili\.com\/bilibili\.app\.(view\.v1\.View\/View|dynamic\.v2\.Dynamic\/DynAll)$
       name: bilibili-proto
       type: response
       require-body: true
       timeout: 10
-    # ～ BiliBili_哔哩哔哩_动态广告@yjqiang      
+    # ～ BiliBili_哔哩哔哩_动态广告@yjqiang
     - match: ^https://app\.bilibili\.com/bilibili\.app\.dynamic\.v2\.Dynamic/DynAll$
       name: bilibili_dynamic
       type: response
       require-body: true
-      timeout: 10           
+      timeout: 10
 script-providers:
   # BiliBili去广告
   bilibili_startup_direc:
@@ -132,7 +132,7 @@ script-providers:
     interval: 86400
   bilibili-proto:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js
-    interval: 86400  
+    interval: 86400
   bilibili_dynamic:
     url: https://raw.githubusercontent.com/yjqiang/surge_scripts/main/scripts/bilibili/bilibili_dynamic.js
     interval: 86400
