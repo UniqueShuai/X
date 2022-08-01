@@ -8,8 +8,10 @@ http:
     - "api.live.bilibili.com"
     - "api.vc.bilibili.com"
     - "manga.bilibili.com"
-    - "grpc.biliapi.net"
-    - "api.biliapi.net"
+    - "grpc.biliapi.net,api.biliapi.net"
+    - "-broadcast.chat.bilibili.com"
+    - "-*cdn*.biliapi.net"
+    - " -*tracker*.biliapi.net"
   rewrite:
     # ～ BiliBili_哔哩哔哩_Defaultword@ddgksf2013
     -^https://app.bilibili.com/x/v2/search/defaultwords - reject-dict
@@ -53,13 +55,13 @@ http:
       type: response
       require-body: true
       timeout: 10
-     # ～ BiliBili_哔哩哔哩_去除统一设置的皮肤@ddgksf2013
+    # ～ BiliBili_哔哩哔哩_去除统一设置的皮肤@ddgksf2013
     - match: ^https?:\/\/app\.bilibili\.com\/x\/resource\/show\/skin\?
       name: bilibili_plus
       type: response
       require-body: true
       timeout: 10
-     # ～ BiliBili_哔哩哔哩_1080P高码率+4K画质(番剧和影视除外)@ddgksf2013
+    #～ BiliBili_哔哩哔哩_1080P高码率+4K画质(番剧和影视除外)@ddgksf2013
     - match: ^https?:\/\/app\.bilibili\.com\/x\/v2\/account\/myinfo\?
       name: bilibili_plus
       type: response
@@ -120,7 +122,6 @@ http:
       require-body: true
       timeout: 10
 script-providers:
-  # BiliBili去广告
   bilibili_startup_direc:
     url: https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Script/bilibili_startup_direct.js
     interval: 86400
