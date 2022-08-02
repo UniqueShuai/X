@@ -1,5 +1,6 @@
 name: YouTube去广告
 desc: https://github.com/DivineEngine/Profiles/raw/master/Quantumult/Rewrite/Block/YouTubeAds.conf
+
 http:
   mitm:
     - "-redirector*.googlevideo.com"
