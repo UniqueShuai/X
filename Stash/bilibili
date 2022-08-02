@@ -30,6 +30,8 @@ http:
     - ^https?:\/\/app\.bilibili\.com\/x\/resource\/top\/activity - reject-dict
     # ～ BiliBili_哔哩哔哩_去除搜索中的大家都在搜@bm7
     - ^https?:\/\/api\.vc\.bilibili\.com\/search_svr\/v\d\/Search\/recommend_words - reject
+    # ～ BiliBili_哔哩哔哩_解除SIM卡地区限制
+    #- ^https?:\/\/app\.biliintl.com\/intl\/.+)(&sim_code=\d+)(.+) - 302 $1$3
     # ～ BiliBili_哔哩哔哩_去除动态中的话题@bm7
     - ^https?:\/\/api\.vc\.bilibili\.com\/topic_svr\/v1\/topic_svr - reject-dict
     # ～ BiliBili_哔哩哔哩_可能的一些推广(beta)@bm7
