@@ -1,6 +1,5 @@
 name: bilibili去广告大会员
 desc: 摘自于https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Rewrite/AdBlock/Bilibili.conf
-
 http:
   mitm:
     - "app.bilibili.com"
