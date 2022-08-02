@@ -12,7 +12,7 @@ http:
     - "api.biliapi.net"
     - "-broadcast.chat.bilibili.com"
     - "-*cdn*.biliapi.net"
-    - " -*tracker*.biliapi.net"
+    - "-*tracker*.biliapi.net"
   rewrite:
     # ～ BiliBili_哔哩哔哩_Defaultword@ddgksf2013
     - ^https://app.bilibili.com/x/v2/search/defaultwords - reject-dict
