@@ -1,15 +1,15 @@
-name:百度网盘 解锁在线视频倍率/清晰度
+name: 百度网盘解锁在线视频倍率/清晰度
 desc: 摘自于https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
 http:
-   mitm:
-   	- "pan.baidu.com"
-   script:
-   	- match: ^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user
-   	  name: baiduyun
-   	  type: response
-   	  require-body: true
-   	  timeout: 30
+  mitm:
+    - "pan.baidu.com"
+  script:
+    - match: ^https:\/\/pan\.baidu\.com\/rest\/\d\.\d\/membership\/user
+      name: baiduyun
+      type: response
+      require-body: true
+      timeout: 30
 script-providers:
-   baiduyun:
-   	url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
-   	interval: 86400
+  baiduyun:
+    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+    interval: 86400
