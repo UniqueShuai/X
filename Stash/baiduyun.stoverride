@@ -11,5 +11,5 @@ http:
       timeout: 30
 script-providers:
   baiduyun:
-    url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
-    interval: 86400
+     url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
+     interval: 86400
