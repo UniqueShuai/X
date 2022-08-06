@@ -30,7 +30,7 @@
 ; https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Profile/QuantumultX.conf
 
 
-
+https://github.com/xream/scripts/tree/main/surge/modules/sub-store-scripts
 S大 ：https://github.com/KOP-XIAO/QuantumultX
 
 毒奶的库:https://github.com/limbopro/Profiles4limbo
