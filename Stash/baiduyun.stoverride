@@ -8,7 +8,7 @@ http:
       name: baiduyun
       type: response
       require-body: true
-      timeout: 30
+      timeout: 20
 script-providers:
   baiduyun:
      url: https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/BaiduCloud.js
