@@ -94,13 +94,6 @@ http:
       timeout: 30
       binary-mode: true
       max-size: 0
-    #魔改皮肤 作者@ClydeTime
-    - match: ^https?:\/\/ap(i|p)\.bilibili\.com\/x\/(vip|v2|resource)\/(space|account|web|price|top_panel_info|show)(\/|\?)(mine|myinfo|access|vip_center|panel|_bridge|skin\?).*
-      name: 魔改皮肤
-      type: response
-      require-body: true
-      timeout: 30
-      max-size: 3145728
   mitm:
     - "*.hdslb.com"
     - "app.bilibili.com"
@@ -145,7 +138,4 @@ script-providers:
     interval: 86400
   bili-proto:
     url: https://raw.githubusercontent.com/app2smile/rules/master/js/bilibili-proto.js
-    interval: 86400
-  魔改皮肤:
-    url: https://raw.githubusercontent.com/ClydeTime/Quantumult/main/Script/BiliBili/bili_info.js
     interval: 86400
