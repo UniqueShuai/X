@@ -56,9 +56,8 @@ Chavyleung：https://github.com/chavyleung/scripts
 Navepnow：https://github.com/NavePnow/Profiles
 
 张军 https://github.com/28413761/
-https://github.com/Loyalsoldier/
 
-https://github.com/Loyalsoldier?tab=repositories
+Loyalsoldier:https://github.com/Loyalsoldier/
 
 中国IP库：https://github.com/17mon/china_ip_list
 
